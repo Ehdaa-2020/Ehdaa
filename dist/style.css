@@ -1,7 +1,7 @@
 html,
 body {
   font-family:lobster, timse new roman;
-  background-color:white;
+  background-color:rgb(213, 217, 226);
   color:black;
  
 }
@@ -9,37 +9,46 @@ header{
   high:40px;
   background:#212121;
  text-align:right;
+ text-transform: uppercase;
+
 }
 
 ul{
   padding:0;
   margin:0;
+  text-align: right;
+  text-transform: uppercase;
+
 }
 
 li{
   list-style: none;
   display: inline-block;
   color:white;
+  background-color:black;
     padding-lift:20px;
     padding-right:20px;
   padding-height:40px;
   
 }
 li:hover{
-  background:#f7f7f7;
+  background:#fcf9f9;
   color:#212121;
 }
-}
+img {width:100%;
+hight:50%;
+img-position:center;}
+
 
 h1{
   font-size:100px;
   margin-bottom:25px;
-  text-align: center;
+  text-align: right;
 }
 h3{
-font-size:35px;
+font-size:25px;
   margin-bottom:15px;
-  text-align: center;  
+  text-align: right;  
 }
   .center {
   display: block;
@@ -47,6 +56,35 @@ font-size:35px;
   margin-right: auto;
   width: 50%;
 }
+
+
+  
+  
+  
+    
+  
+ 
+.container{
+  position: relative;
+}
+
+h3{
+font-size:35px;
+  margin-bottom:15px;
+  text-align: center;  
+}
+p{  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 16px;
+  
+  
+  color: #4e4e4e;
+}
+
+
+
+  
 
 
 /* don't edit this */
